@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faDownload } from "@fortawesome/free-solid-svg-icons";
-import meImage from '/src/assets/me.jpg';
+import meImage from "/src/assets/me.jpg";
 import {
   faGithub,
   faLinkedin,
@@ -18,7 +18,7 @@ function Home() {
           <div className="flex items-center space-x-2 text-blue-500">
             <span className="text-xl">💻</span>
             <span className="font-semibold text-lg">
-              Full Stack Web Developer
+            Software Engineering Student
             </span>
           </div>
 
@@ -28,10 +28,12 @@ function Home() {
           </h1>
 
           <p className="text-gray-400 max-w-xl leading-relaxed mt-4">
-            Passionate about building responsive and user-friendly web
-            applications. Proficient in both front-end and back-end
-            technologies, including React, Node.js, and MongoDB. Committed to
-            delivering high-quality code and seamless user experiences.
+            As a software engineering student, I am enthusiastic about
+            developing responsive and user-centric applications. I focus on both
+            front-end and back-end development, aiming to deliver high-quality
+            code and exceptional user experiences. My commitment is to solving
+            complex problems and building innovative solutions that align with
+            industry standards and user needs.
           </p>
 
           <div className="mt-8 flex items-center space-x-4">

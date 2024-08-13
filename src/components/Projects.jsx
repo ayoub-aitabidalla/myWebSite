@@ -1,37 +1,52 @@
 import { useNavigate } from 'react-router-dom';
+import springImage from '/src/assets/skills-icons/spring.png';
+import reactImage from '/src/assets/skills-icons/react.png';
+import tailwindImage from '/src/assets/skills-icons/tailwind.png';
+import mysqlImage from '/src/assets/skills-icons/mysql.png';
+import angularImage from '/src/assets/skills-icons/angular.png';
+import javaImage from '/src/assets/skills-icons/java.png';
+import javafxImage from '/src/assets/skills-icons/javafx.png';
+import jsImage from '/src/assets/skills-icons/js.png';
+import phpImage from '/src/assets/skills-icons/php.png';
+import cssImage from '/src/assets/skills-icons/css.png';
+
+import satisImage from '/src/assets/projects-images/satis.jpg';
+import rentRoverImage from '/src/assets/projects-images/rent-rover.png';
+import fitManagerImage from '/src/assets/projects-images/gum1.jpg';
+import libraryManagementImage from '/src/assets/projects-images/lib-manag.jpg';
 
 function Projects() {
-    const projects = [
-      {
-        title: "Satisnap",
-        description: "Design and development of a web application for creating, managing, and tracking customer satisfaction surveys.",
-        technologies: ["src/assets/skills-icons/spring.png", "src/assets/skills-icons/react.png", "src/assets/skills-icons/tailwind.png", "src/assets/skills-icons/mysql.png"],
-        link: "#",
-        image: "src/assets/projects-images/satis.jpg",
-      },
-      {
-        title: "Rent a Rover",
-        description: "Developing a Vehicle Allocation Management Web App.",
-        technologies: ["src/assets/skills-icons/spring.png", "src/assets/skills-icons/angular.png", "src/assets/skills-icons/tailwind.png", "src/assets/skills-icons/mysql.png"],
-        link: "#",
-        image: "src/assets/projects-images/rent-rover.png", 
-      },
-      {
-        title: "FitManager - Desktop Application",
-        description: "Development of a gym management application, allowing management of members, trainers, and payments.",
-        technologies: ["src/assets/skills-icons/java.png", "src/assets/skills-icons/javafx.png", "src/assets/skills-icons/mysql.png"],
-        link: "#",
-        image: "src/assets/projects-images/gum1.jpg", 
-      },
-      {
-        title: "Library Management",
-        description: "Development of a university library management application, allowing management of books, users, and loans.",
-        technologies: ["src/assets/skills-icons/php.png", "src/assets/skills-icons/js.png", "src/assets/skills-icons/css.png", "src/assets/skills-icons/mysql.png"],
-        link: "#",
-        image: "src/assets/projects-images/lib-manag.jpg", 
-      },
-    ];
-
+  const projects = [
+    {
+      title: "Satisnap",
+      description: "Design and development of a web application for creating, managing, and tracking customer satisfaction surveys.",
+      technologies: [springImage, reactImage, tailwindImage, mysqlImage],
+      link: "#",
+      image: satisImage,
+    },
+    {
+      title: "Rent a Rover",
+      description: "Developing a Vehicle Allocation Management Web App.",
+      technologies: [springImage, angularImage, tailwindImage, mysqlImage],
+      link: "#",
+      image: rentRoverImage,
+    },
+    {
+      title: "FitManager - Desktop Application",
+      description: "Development of a gym management application, allowing management of members, trainers, and payments.",
+      technologies: [javaImage, javafxImage, mysqlImage],
+      link: "#",
+      image: fitManagerImage,
+    },
+    {
+      title: "Library Management",
+      description: "Development of a university library management application, allowing management of books, users, and loans.",
+      technologies: [phpImage, jsImage, cssImage, mysqlImage],
+      link: "#",
+      image: libraryManagementImage,
+    },
+  ];
+  
   const navigate = useNavigate();
 
   const showProjectDetail = (title) => {

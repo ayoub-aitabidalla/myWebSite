@@ -1,22 +1,32 @@
 
+import javaImage from '/src/assets/skills-icons/java.png';
+import cppImage from '/src/assets/skills-icons/c.png';
+import csharpImage from '/src/assets/skills-icons/csharp.png';
+import reactImage from '/src/assets/skills-icons/react.png';
+import angularImage from '/src/assets/skills-icons/angular.png';
+import springImage from '/src/assets/skills-icons/spring.png';
+import htmlImage from '/src/assets/skills-icons/html.png';
+import jsImage from '/src/assets/skills-icons/js.png';
+import phpImage from '/src/assets/skills-icons/php.png';
+import mysqlImage from '/src/assets/skills-icons/mysql.png';
+import postgreImage from '/src/assets/skills-icons/postgre.png';
+import oracleImage from '/src/assets/skills-icons/oracle.png';
 
 function Skills() {
-    const skills = [
-        { name: "Java", image: 'src/assets/skills-icons/java.png' },
-        { name: "C++", image: 'src/assets/skills-icons/c.png' }, // Add the path for C++ icon
-        { name: "C#", image: 'src/assets/skills-icons/csharp.png' }, // Add the path for C# icon
-        { name: "React", image: 'src/assets/skills-icons/react.png' },
-        { name: "Angular", image: 'src/assets/skills-icons/angular.png' },
-        { name: "Spring boot", image: 'src/assets/skills-icons/spring.png' }, // Add the path for Spring icon
-        { name: "HTML & CSS", image: 'src/assets/skills-icons/html.png' },
-        { name: "JavaScript", image: 'src/assets/skills-icons/js.png' },
-        { name: "PHP", image: 'src/assets/skills-icons/php.png' }, 
-        { name: "MySQL", image: 'src/assets/skills-icons/mysql.png' }, 
-        { name: "PostgreSQL", image: 'src/assets/skills-icons/postgre.png' }, 
-        { name: "Oracle", image: 'src/assets/skills-icons/oracle.png' }, 
-        
-      ];
-      
+  const skills = [
+    { name: "Java", image: javaImage },
+    { name: "C++", image: cppImage },
+    { name: "C#", image: csharpImage },
+    { name: "React", image: reactImage },
+    { name: "Angular", image: angularImage },
+    { name: "Spring boot", image: springImage },
+    { name: "HTML & CSS", image: htmlImage },
+    { name: "JavaScript", image: jsImage },
+    { name: "PHP", image: phpImage },
+    { name: "MySQL", image: mysqlImage },
+    { name: "PostgreSQL", image: postgreImage },
+    { name: "Oracle", image: oracleImage },
+];
 
   return (
     <div className="w-11/12 mx-auto py-12">
