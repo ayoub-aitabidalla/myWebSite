@@ -78,7 +78,7 @@ function Home() {
 
         <div className="flex-1 flex justify-center md:justify-end">
           <img
-            src="src/assets/me.jpg"
+            src="/myWebSite/src/assets/me.jpg"
             alt="Ayoub Ait Abidalla"
             className="w-60 h-60 object-cover rounded-full border-4 border-blue-600  shadow-lg"
           />
