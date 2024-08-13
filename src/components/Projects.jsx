@@ -1,3 +1,5 @@
+import { useNavigate } from 'react-router-dom';
+
 function Projects() {
     const projects = [
       {
@@ -9,7 +11,7 @@ function Projects() {
       },
       {
         title: "Rent a Rover",
-        description: "Development of a vehicle allocation management application.",
+        description: "Developing a Vehicle Allocation Management Web App.",
         technologies: ["src/assets/skills-icons/spring.png", "src/assets/skills-icons/angular.png", "src/assets/skills-icons/tailwind.png", "src/assets/skills-icons/mysql.png"],
         link: "#",
         image: "src/assets/projects-images/rent-rover.png", 
@@ -29,6 +31,13 @@ function Projects() {
         image: "src/assets/projects-images/lib-manag.jpg", 
       },
     ];
+
+  const navigate = useNavigate();
+
+  const showProjectDetail = (title) => {
+    console.log(title);
+    navigate(`/${title}`);
+  };
   
     return (
       <div className="w-11/12 mx-auto py-16">
@@ -62,12 +71,14 @@ function Projects() {
                   />
                   ))}
                 </div>
-                <a
-                  href={project.link}
-                  className="text-blue-400 hover:underline mt-4 inline-block"
+                <button
+                  
+                  className="text-blue-400 hover:underline mt-4 inline-block "
+                  onClick={()=>showProjectDetail(project.title)}
+                  
                 >
                   See more &gt;
-                </a>
+                </button>
               </div>
             </div>
           ))}
