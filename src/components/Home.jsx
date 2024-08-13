@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faDownload } from "@fortawesome/free-solid-svg-icons";
+import meImage from '/src/assets/me.jpg';
 import {
   faGithub,
   faLinkedin,
@@ -78,7 +79,7 @@ function Home() {
 
         <div className="flex-1 flex justify-center md:justify-end">
           <img
-            src="/myWebSite/src/assets/me.jpg"
+            src={meImage}
             alt="Ayoub Ait Abidalla"
             className="w-60 h-60 object-cover rounded-full border-4 border-blue-600  shadow-lg"
           />
