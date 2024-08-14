@@ -10,15 +10,19 @@ import Skills from "./Skills";
 import Projects from "./Projects";
 import Contacts from "./Contacts";
 import Experience from "./Experience";
+
 function Home() {
   return (
     <>
-      <div id="About" className="w-11/12 mx-auto py-16 flex flex-col md:flex-row items-start space-y-6 md:space-y-0 md:space-x-8">
+      <div
+        id="About"
+        className="w-11/12 mx-auto py-16 flex flex-col md:flex-row items-start space-y-6 md:space-y-0 md:space-x-8"
+      >
         <div className="flex-1">
           <div className="flex items-center space-x-2 text-blue-500">
             <span className="text-xl">💻</span>
             <span className="font-semibold text-lg">
-            Software Engineering Student
+              Software Engineering Student
             </span>
           </div>
 
@@ -52,6 +56,7 @@ function Home() {
               >
                 <FontAwesomeIcon icon={faEnvelope} />
               </a>
+
               <a
                 href="https://github.com/ayoub-aitabidalla"
                 target="_blank"
