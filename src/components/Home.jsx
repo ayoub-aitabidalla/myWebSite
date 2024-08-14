@@ -13,7 +13,7 @@ import Experience from "./Experience";
 function Home() {
   return (
     <>
-      <div className="w-11/12 mx-auto py-16 flex flex-col md:flex-row items-start space-y-6 md:space-y-0 md:space-x-8">
+      <div id="About" className="w-11/12 mx-auto py-16 flex flex-col md:flex-row items-start space-y-6 md:space-y-0 md:space-x-8">
         <div className="flex-1">
           <div className="flex items-center space-x-2 text-blue-500">
             <span className="text-xl">💻</span>
@@ -79,7 +79,7 @@ function Home() {
           </div>
         </div>
 
-        <div className="flex-1 flex justify-center md:justify-end">
+        <div className="flex-1 flex justify-center md:justify-end py-10">
           <img
             src={meImage}
             alt="Ayoub Ait Abidalla"
@@ -88,9 +88,15 @@ function Home() {
         </div>
       </div>
       <Experience />
-      <Skills />
-      <Projects />
-      <Contacts />
+      <section id="skills">
+        <Skills />
+      </section>
+      <section id="projects">
+        <Projects />
+      </section>
+      <section id="contacts">
+        <Contacts />
+      </section>
     </>
   );
 }
