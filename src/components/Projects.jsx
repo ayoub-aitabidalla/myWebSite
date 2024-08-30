@@ -11,7 +11,7 @@ import phpImage from '/src/assets/skills-icons/php.png';
 import cssImage from '/src/assets/skills-icons/css.png';
 
 import satisImage from '/src/assets/projects-images/satis.jpg';
-import rentRoverImage from '/src/assets/projects-images/rent-rover.png';
+import rentRoverImage from '/src/assets/projects-images/rentrover-img1.jpg';
 import fitManagerImage from '/src/assets/projects-images/gum1.jpg';
 import libraryManagementImage from '/src/assets/projects-images/lib-manag.jpg';
 
